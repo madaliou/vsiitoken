@@ -24,8 +24,8 @@ function Header() {
         <div className='hidden md:flex md:col-span-3
          items-center justify-center rounded-md'>
             <div className='bg-[#0A1F1C] p-4 space-x-2'>
-                <NavButton isActive title='Buy tickets' />
-                <NavButton onClick={disconnect} title='Logout'/>
+                <NavButton isActive title='Make transaction' />
+                <NavButton onClick={disconnect}  title='Logout'/>
             </div>
         </div>
         <div className='flex flex-col ml-auto text-right'>
